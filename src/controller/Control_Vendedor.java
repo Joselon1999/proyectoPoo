@@ -8,8 +8,6 @@ package controller;
 import view.ListarVendedor;
 import static view.ListarVendedor.jTableListarVendedor;
 
-import view.Ventas;
-import static view.Ventas.SeleccionarVendedor;
 import view.SalidaProductos;
 import dao.CerrarConexiones;
 import dao.ConexionConBaseDatos;
@@ -81,11 +79,11 @@ public class Control_Vendedor {
                 return false;
             }
         };
-        Ventas.SeleccionarVendedor.setModel(modelo);
+        //Ventas.SeleccionarVendedor.setModel(modelo);
         int[] anchos = {80, 200};
-        for(int i = 0; i < SeleccionarVendedor.getColumnCount(); i++) {
-        SeleccionarVendedor.getColumnModel().getColumn(i).setPreferredWidth(anchos[i]);
-        }
+        //for(int i = 0; i < SeleccionarVendedor.getColumnCount(); i++) {
+        //SeleccionarVendedor.getColumnModel().getColumn(i).setPreferredWidth(anchos[i]);
+        //}
         ejecutarConsultaTodaTabla();
 
     }
