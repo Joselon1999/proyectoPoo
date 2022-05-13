@@ -166,7 +166,7 @@ public class Control_Productos {
                     return false;
                 }
             };
-            Ventas.SeleccionarProductos.setModel(modelo);
+            //Ventas.SeleccionarProductos.setModel(modelo);
             buscarRegistroProductoss(parametroBusqueda);
     }
     

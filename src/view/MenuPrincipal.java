@@ -5,21 +5,6 @@
  */
 
 package view;
-import view.EliminarCliente;
-import view.ListarCliente;
-import view.ModificarCliente;
-import view.addCliente;
-import view.ConsultarProductos;
-import view.EliminarProductos;
-import view.ModificarProductos;
-import view.addProductos;
-import view.EliminarVendedor;
-import view.ListarVendedor;
-import view.ModificarVendedors;
-import view.addVendedor;
-import view.About;
-import view.ConsultarFacturas;
-import view.MenuConsultas;
 import java.awt.Color;
 
 /**
